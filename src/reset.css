@@ -1,0 +1,32 @@
+/* Hard reset for annoying defaults */
+
+a,
+button,
+input,
+textarea,
+select {
+  all: unset;
+  box-sizing: border-box;
+}
+
+/* Restore cursor and some usability */
+button,
+input[type="button"],
+input[type="submit"],
+a[href] {
+  cursor: pointer;
+}
+
+/* Remove outlines for links */
+a:focus,
+a:active,
+a:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Smooth scroll on anchor nav */
+html {
+  scroll-behavior: smooth;
+}
