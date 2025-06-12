@@ -4,12 +4,12 @@ import GithubHeatmap from '../GithubHeatmap';
 const Home = () => {
   return (
     <AnimatedPage>
-      <section className="min-h-[85vh] flex flex-col items-center justify-center text-center px-4">
+      <section className="min-h-[50vh] flex flex-col items-center justify-center text-center px-4">
         <img
-  src="/profile-picture.webp"
-  alt="Profile"
-  className="w-64 h-64 sm:w-64 sm:h-64 md:w-64 md:h-64 rounded-full border-4 border-white/20 mb-6 object-cover"
-/>
+          src="/profile-picture.webp"
+          alt="Profile"
+          className="w-64 h-64 sm:w-64 sm:h-64 md:w-64 md:h-64 rounded-full border-4 border-white/20 mb-6 object-cover"
+        />
         <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">Hi, I'm Haakon</h1>
         <p className="text-lg text-white/80 mb-4">
           Aspiring Software Developer · Student of Applied Computer Technology at OsloMet
