@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X } from 'lucide-react'; // install lucide-react for icons
+import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { name: 'Home', path: '/' },
@@ -18,7 +18,7 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="sticky top-4 z-50 w-full px-4">
+    <header className="sticky top-0 z-50 w-full px-4">
       {/* Desktop nav */}
       <nav className="hidden md:flex gap-4 px-6 py-3 rounded-2xl bg-transparent backdrop-blur-sm justify-center">
         {navItems.map((item) => {
