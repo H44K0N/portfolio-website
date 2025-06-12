@@ -8,7 +8,7 @@ const Home = () => {
         <img
   src="/profile-picture.webp"
   alt="Profile"
-  className="w-24 h-24 sm:w-28 sm:h-28 md:w-64 md:h-64 rounded-full border-4 border-white/20 mb-6 object-cover"
+  className="w-64 h-64 sm:w-64 sm:h-64 md:w-64 md:h-64 rounded-full border-4 border-white/20 mb-6 object-cover"
 />
         <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">Hi, I'm Haakon</h1>
         <p className="text-lg text-white/80 mb-4">
